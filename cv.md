@@ -9,6 +9,7 @@ GitHub: [Munavvarkhon](https://github.com/Munavvarkhon) \
 Discord: Munavvar#4781
 
 ## Summary
+My goal is to successfully complete all stages of the RC School and receive an invitation for an interview at EPAM. I want to become a highly qualified full stack developer and work among professionals. I also want to actively promote the idea of woman in tech in the future so that more girls know about the opportunities in the IT field. It must be said that after a successful graduation from RS School, I plan to return as a mentor and make a contribution to the training of new specialists.
 
 ## Skills
 - Confident user of Microsoft Office
@@ -17,6 +18,15 @@ Discord: Munavvar#4781
 - Experience in GitHub
 
 ## Code Example
+// store input numbers\
+const num1 = parseInt(prompt('Enter the first number '));\
+const num2 = parseInt(prompt('Enter the second number '));
+
+//add two numbers\
+const sum = num1 + num2;
+
+// display the sum\
+console.log(The sum of ${num1} and ${num2} is ${sum});
 
 ## Education
 + Bachelor of Science in Business Information Systems, *Westminster International University in Tashkent*

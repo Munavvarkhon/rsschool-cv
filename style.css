@@ -3,58 +3,7 @@
   padding: 0;
 }
 
-.main {
-  min-height: 100vh;
-  position: relative;
-  width: 100%;
-  background: linear-gradient(43deg, #2828cb, rgba(224, 45, 224, 0.887), #ffe761);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.card {
-  background-image: url("images/photo_2022-05-30_21-03-57.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 540px;
-  width: 400px;
-  color: white;
-  text-align: center;
-}
-
-.card .title {
-  font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
-  text-transform: capitalize;
-  gap: 2px;
-  width: 300px;
-  margin: 24px auto;
-}
-
-.card .description {
-  font-size: 25px;
-  font-family: 'Karla', sans-serif;
-  font-family: 'Macondo', cursive;
-  line-height: 32px;
-  width: 300px;
-  margin: 24px auto;
-}
-
-.card .button {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#f6d365), to(#fda085));
-  background-image: linear-gradient(to bottom right, #f6d365, #fda085);
-  font-family: sans-serif;
-  font-size: 17.6px;
-  text-transform: uppercase;
-  padding: 10px 15px;
-  border: none;
-  color: white;
+.p {
+  color: black;
+  font-size: 16px;
 }

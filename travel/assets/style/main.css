@@ -273,9 +273,9 @@ footer .footer-inside {
   justify-content: space-between;
   width: 60%;
 }
-footer .footer-inside .icons img {
+footer .footer-inside .icons a {
   vertical-align: middle;
 }
-footer .footer-inside .icons img:not(:last-child) {
+footer .footer-inside .icons a:not(:last-child) {
   margin-right: 24px;
 }/*# sourceMappingURL=main.css.map */

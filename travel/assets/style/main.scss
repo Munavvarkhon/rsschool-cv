@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400&family=Red+Hat+Text:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Aleo";
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  color: #f2785c;
+  font-size: 40px;
+  font-family: "Red Hat Text";
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 46px;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: pink;
+  color: white;
+
+  .navbar {
+    width: 1440px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: rgba(179, 90, 90, 0.507);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    align-items: center;
+
+    .nav_links {
+      display: flex;
+
+      li {
+        text-transform: capitalize;
+        list-style: none;
+        font-family: "Red Hat Text";
+        font-weight: 500;
+        line-height: 21px;
+        color: #ffffff;
+        font-size: 20px;
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+
+      & li:not(:last-child) {
+        margin-right: 42px;
+      }
+    }
+
+    .nav_btn {
+      background-color: rgb(23, 120, 152);
+      color: white;
+      border-radius: 10 px;
+      padding: 10px 25px;
+      font-size: 16px;
+      border-radius: 10px;
+      border: none;
+    }
+  }
+
+  .preview-container {
+    width: 100%;
+    background-image: url("../images/background_image.jpg");
+    background-size: cover;
+    height: 765px;
+
+    .preview-text {
+      padding-top: 200px;
+      padding-left: 100px;
+      width: 892px;
+      font-family: "Aleo", serif;
+
+      h1 {
+        font-size: 80px;
+      }
+
+      p {
+        font-size: 20px;
+        font-style: italic;
+        margin: 50px 0;
+      }
+
+      .preview-search {
+        position: relative;
+        height: 67.2px;
+
+        #preview-input {
+          position: absolute;
+          padding: 20px;
+          width: 100%;
+          border-radius: 16px;
+          outline: none;
+          border: none;
+          font-size: 24px;
+          font-style: italic;
+          opacity: 0.6;
+
+          &::placeholder {
+            color: orange;
+          }
+        }
+
+        button {
+          position: absolute;
+          color: white;
+          background-color: #0d606f;
+          border-radius: 10px;
+          right: 18px;
+          top: 50%;
+          transform: translateY(-50%);
+          padding: 13.5px 32.5px;
+        }
+      }
+    }
+  }
+}
+
+.steps {
+  padding: 80px 0 97px 0;
+  h2 {
+    text-align: center;
+    color: #f2785c;
+  }
+  .cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .image_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2785c;
+        border-radius: 16px;
+        height: 100px;
+        width: 100px;
+      }
+      .cards__text {
+        margin-top: 30px;
+        font-size: 20px;
+        color: #0d606f;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.button_wrapper {
+  text-align: center;
+  .button {
+    background-color: #0d606f;
+    padding: 10px 32px 10px 32px;
+    border-radius: 10px;
+    border: none;
+    img {
+      vertical-align: middle;
+      margin-right: 12px;
+    }
+    span {
+      color: white;
+      text-transform: capitalize;
+      font-family: "Red Hat Text";
+      font-size: 24px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.destinations {
+  .destinations__cards {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 60px;
+    .destinations_card {
+      &_1 {
+        background-image: url("../images/destinations_1.jpg");
+        height: 800px;
+        border-radius: 0 16px 16px 0;
+      }
+      &_2 {
+        background-image: url("../images/destinations_2.jpg");
+        height: 800px;
+        background-size: cover;
+        border-radius: 16px;
+      }
+      &_3 {
+        background-image: url("../images/destinations_3.jpg");
+        height: 800px;
+        border-radius: 16px 0 0 16px;
+      }
+    }
+  }
+
+  &__image_button {
+    text-align: center;
+    margin: 24px 0 40px 0;
+    .circle {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: inline-block;
+
+      &:nth-child(2) {
+        margin: 0 10px 0 10px;
+      }
+      &_pink {
+        background-color: #f2785c80;
+      }
+      &_orange {
+        background-color: #f2785c;
+      }
+    }
+  }
+}
+
+.stories {
+  padding-top: 80px;
+  &__background_image {
+    position: relative;
+    .stories__bg {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.568);
+      width: 100%;
+      height: 1150px;
+      top: 0;
+    }
+    padding: 65px 0;
+    background-image: url("../images/travel_background_image.jpg");
+    background-size: cover;
+    .stories__inside {
+      &__card {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        .text {
+          color: #0d606f;
+          font-family: "Aleo";
+          font-weight: 400;
+          h4 {
+            font-size: 35px;
+            margin-bottom: 24px;
+          }
+          p {
+            font-size: 20px;
+          }
+          a {
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  position: relative;
+  top: -50px;
+  display: flex;
+  color: #fff;
+  .footer_container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer-inside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+
+    .icons img {
+      vertical-align: middle;
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+    }
+  }
+}

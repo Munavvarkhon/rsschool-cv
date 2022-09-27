@@ -17,6 +17,12 @@ My goal is to successfully complete all stages of the RC School and receive an i
 - Hands-on Visual Studio Code
 - Experience in GitHub
 
+## Code Example
+```
+// store input numbers
+const num1 = parseInt(prompt('Enter the first number '));
+const num2 = parseInt(prompt('Enter the second number '));
+
 ## Education
 + Bachelor of Science in Business Information Systems, *Westminster International University in Tashkent*
 + MBA in Project Management, *Webster University*
@@ -28,3 +34,9 @@ Social and gender officer at the Horticulture Value Chain Infrastructure Project
 
 **Alskom Insurance Company**\
 Manager Assistant in the Department of Corporate relations with shareholders
+
+## Languages
+1. Russian (Native)
+2. Uzbek (Native)
+3. English (Full professional proficiency)
+4. German (Working proficiency)

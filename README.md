@@ -1,3 +1,3 @@
-https://Munavvarkhon.github.io/rsschool-cv/
+https://Munavvarkhon.github.io/rsschool-cv/cv
 
-https://travel-travel.netlify.app/
+https://Munavvarkhon.github.io/rsschool-cv/

@@ -23,6 +23,13 @@ My goal is to successfully complete all stages of the RC School and receive an i
 const num1 = parseInt(prompt('Enter the first number '));
 const num2 = parseInt(prompt('Enter the second number '));
 
+//add two numbers
+const sum = num1 + num2;
+
+// display the sum
+console.log(The sum of ${num1} and ${num2} is ${sum});
+```
+
 ## Education
 + Bachelor of Science in Business Information Systems, *Westminster International University in Tashkent*
 + MBA in Project Management, *Webster University*
